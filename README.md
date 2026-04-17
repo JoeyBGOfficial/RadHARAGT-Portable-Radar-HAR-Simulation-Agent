@@ -37,9 +37,7 @@ The implementation of large language models (LLMs) has become extremely popular.
 
 As shown in the figure below, a system with only traditional architecture is limited in its intelligence. A system with only AI architecture is limited in its physical interpretability. Therefore, a hybrid architecture design that combines both traditional and AI elements is optimal. RadHARAGT was born in response to this need.
 
-<div align="center">
-<img width="4150" height="7305" alt="Overall" src="https://github.com/user-attachments/assets/4947eabf-5cdd-493c-8876-44ad22ed0fda" />
-</div>
+<img width="4150" height="7305" alt="Overall" src="https://github.com/user-attachments/assets/b6bd58fa-5a1d-4c3f-b2c2-4bde5915a38f" />
 Fig. 1. The overall design idea and architecture of the proposed RadHARAGT.
 <br><br>
 
