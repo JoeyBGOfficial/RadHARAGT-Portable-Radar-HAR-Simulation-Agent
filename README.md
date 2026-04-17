@@ -34,17 +34,17 @@
 
 ## 💡 I. Introduction & Overview
 
-> 📡 **Through-the-Wall Radar (TWR) Human Activity Recognition (HAR) represents a cutting-edge field in pattern recognition research.** However, the generation of high-fidelity datasets is conventionally restricted by labor-intensive physical collection processes. 
+The implementation of large language models (LLMs) has become extremely popular. As a researcher in radar signal processing, I am eager to develop an agent that can directly generate radar images through only textual prompts. Although Nano Banana has now developed to the level where it can generate radar range profiles and Doppler profiles, the features on the generated images are completely inconsistent with physical laws.
 
-To address this data scarcity challenge, we propose **RadHARAGT**, a portable agent that automates the synthesis of realistic human radar echo and image datasets directly from natural language semantic descriptions. By integrating a local large language model (LLM), an efficient motion diffusion model (MDM), and a comprehensive radar point-scatterer physics engine, this field can now achieve text-to-radar mapping that strictly conforms to complex electromagnetic wave propagation phenomena.
-
-Furthermore, we propose a lightweight deep CNN architecture, **RHFNet**, featuring a partial convolution module for rapid HAR inference. **This work introduces an innovative paradigm for dataset synthesis, and uniquely, the entire agent can be smoothly deployed on a standard laptop with a single discrete graphics card.** We fully trust our peer community and welcome the use of our open-source code for one-click verification.
+As shown in the figure below, a system with only traditional architecture is limited in its intelligence. A system with only AI architecture is limited in its physical interpretability. Therefore, a hybrid architecture design that combines both traditional and AI elements is optimal. RadHARAGT was born in response to this need.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/your-overview-image-link-here" width="85%" alt="Architecture Overview">
-  <br><br>
-  <img src="https://github.com/user-attachments/assets/your-visualization-image-link-here" width="85%" alt="Visualizations">
+<img width="4150" height="7305" alt="Overall" src="https://github.com/user-attachments/assets/4947eabf-5cdd-493c-8876-44ad22ed0fda" />
 </div>
+Fig. 1. The overall design idea and architecture of the proposed RadHARAGT.
+<br><br>
+
+Furthermore, we propose a lightweight deep network architecture: **RHFNet**, which uses a partial convolution module for rapid HAR inference. **This work introduces an innovative paradigm for dataset synthesis, and uniquely, the entire agent can be smoothly deployed on a standard laptop with a single discrete graphics card.** We fully trust our peer community and welcome the use of our open-source code for one-click verification.
 
 ---
 
