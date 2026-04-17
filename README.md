@@ -167,7 +167,7 @@ python -m spacy download en_core_web_sm
 ## ⚠️ IV. Important Notes
 
 🖥️ **1. Environment Issues** <br>
-The project primarily consists of MATLAB and python code executed locally. Suggested MATLAB version: R2025a+. Required python version: 3.10.13. Required CUDA version: 12.1.
+The project primarily consists of MATLAB and python code executed locally. Suggested MATLAB version: R2025a+, Python version: 3.10.13, and CUDA version: 12.1.1.
 
 🧬 **2. Algorithm Design Issues** <br>
 By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furnitures is supported. We are trying to catch up with these improvements! But we still want to thank to the remarkable work that inspired us:
