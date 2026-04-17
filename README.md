@@ -123,9 +123,7 @@ Strictly follow the installation instructions below step by step, and you can us
 ### 🔹 Part 3: Prepare the CUDA Environments
 1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version. It is recommended to choose the "exe (local)" package for installation. If you have already installed CUDA 12.1+ on your computer, skip Part 3.
 
-2. Run the downloaded "cuda_12.1.1_531.14_windows.exe". Apart from choosing the installation path you prefer, all other installation options can be left at their default settings.
-
-<img width="2376" height="3564" alt="e9c847a96550a9ec25bcaab5aaafebc8" src="https://github.com/user-attachments/assets/abfee0df-4712-43a6-a2d1-9d2e7fdbf6a4" />
+2. Run the downloaded "cuda_12.1.1_531.14_windows.exe". Just keep selecting the default options to complete the installation process.
 
 ### 🔹 Part 4: Prepare the Python Environments
 1. Download Anaconda here: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/. Select the correct Windows system version. It is recommended to choose "Anaconda3-2025.12-2-Windows-x86_64" or later. Similarly, our code can also run on old versions after "Anaconda3-2023.03-0-Windows-x86_64", but it's not very stable. If you have already installed Anaconda, skip this step.
