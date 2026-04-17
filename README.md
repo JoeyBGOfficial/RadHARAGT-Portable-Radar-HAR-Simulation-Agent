@@ -108,7 +108,7 @@ Strictly follow the installation instructions below step by step, and you can us
 3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 728 MB. After all the files are unzipped, the path of your project working folder should look exactly like this:
 
 <div align="center">
-<img width="75%" alt="File" src="https://github.com/user-attachments/assets/dd43d04b-f7cd-4b5d-8c47-55c6d479ce39" />
+<img width="60%" alt="File" src="https://github.com/user-attachments/assets/dd43d04b-f7cd-4b5d-8c47-55c6d479ce39" />
 </div>
 
 ### 🔹 Part 2: Prepare the Ollama Environments
