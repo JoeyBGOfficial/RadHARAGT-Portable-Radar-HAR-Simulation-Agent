@@ -1,5 +1,5 @@
 <div align="center">
-<img width="250" height="250" alt="RadHARAGT_Logo" src="https://github.com/user-attachments/assets/67be9103-d363-4696-a701-c0049a9e373d" />
+<img width="260" height="260" alt="RadHARAGT_Logo" src="https://github.com/user-attachments/assets/10f6a669-a038-4dc7-be1f-53b2e643c97a" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=500&color=95949A&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
 <br>
