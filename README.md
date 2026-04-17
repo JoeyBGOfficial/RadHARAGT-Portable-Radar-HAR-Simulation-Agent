@@ -31,12 +31,6 @@
 </div>
 
 ---
-## 📑 Table of Contents
-- [I. Introduction & Overview](#i-introduction--overview)
-- [II. Core Highlights](#ii-core-highlights)
-- [III. How to Install](#iii-how-to-install)
-- [IV. Important Notes](#iv-important-notes)
----
 
 ## 💡 I. Introduction & Overview
 
