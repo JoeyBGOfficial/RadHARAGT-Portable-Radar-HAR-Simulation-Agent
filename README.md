@@ -53,7 +53,8 @@ Table I. Minimum requirements and inference speed on different hardware platform
 
 ### 📚 Paper Information
 * **Paper Title:** RadHARAGT: A Portable Agent for Radar-Based Human Activity Simulation.
-* **Journal References:** Submitted to IEEE Internet of Things Journal.
+* **Journal References:**
+> Submitted to IEEE Internet of Things Journal.
 * **Link:**
 
 ---
@@ -115,15 +116,16 @@ All source code in the repository is well-structured, extensively commented, and
 
 ## ⚠️ IV. Important Notes
 
-> 🖥️ **1. Environment Issues** <br>
-> The project primarily consists of pure MATLAB code executed locally. For neural network training and MDM inference, an NVIDIA GPU (e.g., RTX 3060 OC or better) is recommended. If you have any questions about configuring the local environment, feel free to email me.
+🖥️ **1. Environment Issues** <br>
+The project primarily consists of MATLAB and python code executed locally. Suggested MATLAB version: R2025a+. Required python version: 3.10.13. Required CUDA version: 12.1.
 
-> 🧬 **2. Algorithm Design Issues** <br>
-> By comprehensively formulating strict physical laws of spreading attenuation, wall penetration, and room reverberation, the proposed agent transcends simplified free-space simulators. Our RHFNet consistently outperforms multiple state-of-the-art architectures in both free-space and through-the-wall scenarios.
+🧬 **2. Algorithm Design Issues** <br>
+By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furnitures is supported. We are trying to catch up with these improvements! But we still want to thank to the remarkable work that inspired us:
+> Y. Zhou, M. López-Benítez, L. Yu and Y. Yue, "Text2Doppler: Generating Radar Micro–Doppler Signatures for Human Activity Recognition via Textual Descriptions," in IEEE Sensors Letters, vol. 8, no. 10, pp. 1-4, Oct. 2024.
 
-> 🔒 **3. Copyright & Usage Rights** <br>
-> ⭐ Considering intellectual property and the hard work of our team members, this work open-sources the simulation agent code and network model structures for **learning and academic purposes only**. Any direct use for paper submissions, patents, or commercialization must receive our explicit consent! ⭐
+🔒 **3. Copyright & Usage Rights** <br>
+⭐ Considering intellectual property and the hard work of our team members, this work open-sources the simulation agent code and network model structures for **learning and academic purposes only**. Any direct use for paper submissions, patents, or commercialization must receive our explicit consent! ⭐
 
 <div align="center">
-  <p><i>If you find this repository helpful, please consider citing our paper and giving this repo a </i> 🌟</p>
+  <p><i>If you find this repository helpful, please consider citing our paper and giving this repo a </i> "🌟". Really appreciated!</p>
 </div>
