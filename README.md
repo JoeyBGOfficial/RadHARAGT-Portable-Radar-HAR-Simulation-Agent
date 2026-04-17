@@ -99,26 +99,24 @@ All source code in the repository is well-structured, extensively commented, and
 Strictly follow the installation instructions below step by step, and you can use our agent normally:
 
 ### 🔹 Part 1: Prepare the MATLAB Environments
-1. Install MATLAB R2025a or a later version on your computer, you need to install all the toolboxes. Actually, our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
+1. Install MATLAB R2025a+ with all toolboxes on your computer. Our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
 2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Cick "Version History". Find version 4.8.0 (12 Mar 2026). Click "Add" → "Add to MATLAB". Wait a few minutes until the installation is completed.
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc8f4483-4ecc-466b-818d-7159f5d9029c" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
 <br><br>
 
-3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 728 MB. After all the files are unzipped, the path of your project working folder should look exactly like this.
+3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 728 MB. After all the files are unzipped, the path of your project working folder should look exactly like this:
 
 <img width="534" height="537" alt="image" src="https://github.com/user-attachments/assets/fe1eb541-3586-45de-9e89-e3b010fdf257" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
-2. In the model options bar, select the LLM you want. It is suggested to select qwen3-vl:4b. Of course, you can also choose other models to ensure that your computer resources can run smoothly. Please remember the name of the LLM you have chosen, as you will need to enter it later when using RadHARAGT.
+2. In the model options bar, select the LLM you want. Suggested selection: qwen3-vl:4b. Of course, you can also choose other models that your computer resources can run smoothly. Please remember the name of the LLM you choose, as you will need to enter it later when using RadHARAGT.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c711ae5-ee38-4704-8eb4-a031aeecd8b1" />
 <br><br>
 
-3. After selected your favorite LLM, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
+3. After selected your favorite LLM, just prompt any content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
 
 ### 🔹 Part 3: Prepare the CUDA Environments
 1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version. It is recommended to choose the "exe (local)" package for installation. If you have already installed CUDA 12.1+ on your computer, skip Part 3.
