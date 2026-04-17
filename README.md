@@ -1,11 +1,6 @@
 <div align="center">
-
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&pause=1000&color=464EB8&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
-
-*A Framework mapping natural language prompts directly into physical radar representations.*
-
 <br>
-
 <kbd>
   <a href="https://www.semanticscholar.org/author/Weicheng-Gao/2051685234">
     <img src="https://img.shields.io/badge/Semantic_Scholar-0D1117?style=for-the-badge&logo=semanticscholar&logoColor=464EB8" alt="Semantic Scholar" height="25"/>
@@ -29,17 +24,14 @@
     <img src="https://img.shields.io/badge/Team_Website-0D1117?style=for-the-badge&logo=rss&logoColor=10B981" alt="Team Website" height="25"/>
   </a>
 </kbd>
-
 </div>
 
 ---
-
 ## 📑 Table of Contents
 - [I. Introduction & Overview](#i-introduction--overview)
 - [II. Core Highlights](#ii-core-highlights)
 - [III. How to Reproduce](#iii-how-to-reproduce)
 - [IV. Important Notes](#iv-important-notes)
-
 ---
 
 ## 💡 I. Introduction & Overview
