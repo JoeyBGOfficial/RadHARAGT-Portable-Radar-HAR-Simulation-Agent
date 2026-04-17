@@ -162,7 +162,7 @@ pip install scipy==1.15.3 einops==0.8.2 spacy==3.8.13 wandb==0.25.1 smplx==0.1.2
 pip install chumpy==0.70 --no-build-isolation
 ```
 ```bash
-pip install matplotlib==3.5.2
+pip install matplotlib==3.5.2 --upgrade
 ```
 ```bash
 pip install numpy==1.23.5 --upgrade
