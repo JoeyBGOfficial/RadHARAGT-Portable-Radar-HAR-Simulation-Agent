@@ -176,6 +176,10 @@ python test_emdm_prompt.py
 <img alt="image" src="https://github.com/user-attachments/assets/0a08730c-b138-4c91-97a1-4cbf27bd8cb2" />
 
 ### 🔹 Part 5: Run the RadHARAGT
+Now get back to the MATLAB. In the unzipped GitHub project directory, run the following command "run("RadHARSimulatorV3.mlapp");". Now feel free to use the app!
+
+<img width="3198" height="1998" alt="ScreenShot_2026-04-17_220913_736" src="https://github.com/user-attachments/assets/a29f314f-7672-47e0-80a0-27150a90bce6" />
+
 
 
 ---
