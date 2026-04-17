@@ -121,7 +121,7 @@ Strictly follow the installation instructions below step by step, and you can us
 3. After selected your favorite LLM, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
 
 ### 🔹 Part 3: Prepare the CUDA Environments
-1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version. It is recommended to choose the "exe (local)" package for installation.
+1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version. It is recommended to choose the "exe (local)" package for installation. If you have already installed CUDA 12.1+ on your computer, skip Part 3.
 
 2. Run the downloaded "cuda_12.1.1_531.14_windows.exe". Apart from choosing the installation path you prefer, all other installation options can be left at their default settings.
 
