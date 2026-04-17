@@ -1,3 +1,4 @@
+<img width="1754" height="1201" alt="RadHARAGT_Splash_Screen" src="https://github.com/user-attachments/assets/226d5e6e-e4aa-4c5b-8d1e-f0255337c8c1" />
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=500&color=464EB8&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
