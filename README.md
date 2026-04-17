@@ -111,7 +111,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 3. Download the whole GitHub project and unzip to your computer. The whole project is about 730 MB. If your download speed is too slow, we also offer a Google Drive download solution:. After all the files are unzipped, the path of your project working folder should look exactly like this.
 
-<img width="231" height="490" alt="image" src="https://github.com/user-attachments/assets/2a9ef75d-43d9-4bdd-9649-9d874511fc54" />
+<img width="1002" height="542" alt="image" src="https://github.com/user-attachments/assets/a5af2f21-5b53-46cc-906d-b42149c77ed6" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
@@ -127,7 +127,13 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 4: Prepare the Python Environments
 1. Download Anaconda here: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/. Select the correct Windows system version. It is recommended to choose "Anaconda3-2025.12-2-Windows-x86_64" or later. Similarly, our code can also run on old versions after "Anaconda3-2023.03-0-Windows-x86_64", but it's not very stable. If you have already installed Anaconda, skip this step.
-2. Open Anaconda Prompt.
+2. Open Anaconda Prompt. Enter the folder you have dowanloaded and unzipped the GitHub project.
+
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/fc9c0ee9-d830-4a24-b420-2b98a9a0e417" />
+
+3. Create a new conda environment named "emdm". Run the following commands one by one.
+> conda create -n emdm python=3.10.13
+> conda activate emdm
 
 ---
 
