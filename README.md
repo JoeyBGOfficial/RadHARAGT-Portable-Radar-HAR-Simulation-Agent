@@ -127,7 +127,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 4: Prepare the Python Environments
 1. Download Anaconda here: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/. Select the correct Windows system version. It is recommended to choose "Anaconda3-2025.12-2-Windows-x86_64" or later. Similarly, our code can also run on old versions after "Anaconda3-2023.03-0-Windows-x86_64", but it's not very stable. If you have already installed Anaconda, skip this step.
-2. Open Anaconda Prompt. Enter the folder you have dowanloaded and unzipped the GitHub project.
+2. Open "Anaconda Prompt". Enter the folder you have dowanloaded and unzipped the GitHub project.
 
 <img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/3b34b168-e7de-4f5b-a0b8-3a24b42eb7bf" />
 <br><br>
@@ -140,7 +140,7 @@ conda create -n emdm python=3.10.13 -y
 conda activate emdm
 ```
 
-4. Install the version of PyTorch compatible with CUDA 12.1.1. Run the following command.
+4. Install the version of PyTorch compatible with CUDA 12.1.1. Run the following command. Note: If the CUDA version installed on your computer is not 12.1, please also change the version of PyTorch installed by modifying the last three digits of the command.
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
