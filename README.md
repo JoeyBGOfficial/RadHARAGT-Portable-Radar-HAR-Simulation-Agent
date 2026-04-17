@@ -107,8 +107,11 @@ Strictly follow the installation instructions below step by step, and you can us
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc8f4483-4ecc-466b-818d-7159f5d9029c" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
+<br><br>
 
-3. Clone the whole project to your computer. The whole project is about 
+3. Download the whole GitHub project and unzip to your computer. The whole project is about 730 MB. If your download speed is too slow, we also offer a Google Drive download solution:. After all the files are unzipped, the path of your project working folder should look exactly like this.
+
+<img width="231" height="490" alt="image" src="https://github.com/user-attachments/assets/2a9ef75d-43d9-4bdd-9649-9d874511fc54" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
