@@ -147,7 +147,13 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 5. Install other dependent Python packages. Run the following command one by one.
 ```bash
-pip install "git+https://github.com/openai/CLIP.git"
+cd CLIP-main
+```
+```bash
+pip install .
+```
+```bash
+cd ..
 ```
 ```bash
 pip install scipy==1.15.3 einops==0.8.2 spacy==3.8.13 chumpy==0.70 wandb==0.25.1 smplx==0.1.28 pandas==2.3.3 scikit-learn==1.7.2 chardet==7.4.0.post1
