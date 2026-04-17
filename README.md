@@ -1,27 +1,29 @@
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&pause=1000&color=464EB8&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=500&color=464EB8&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
 <br>
+
 <kbd>
   <a href="https://www.semanticscholar.org/author/Weicheng-Gao/2051685234">
-    <img src="https://img.shields.io/badge/Semantic_Scholar-0D1117?style=for-the-badge&logo=semanticscholar&logoColor=464EB8" alt="Semantic Scholar" height="25"/>
+    <img src="https://img.shields.io/badge/Semantic_Scholar-005A3C?style=for-the-badge&logo=semanticscholar&logoColor=white" alt="Semantic Scholar" height="25"/>
   </a>
 </kbd>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd>
   <a href="https://joeybgofficial.github.io/">
-    <img src="https://img.shields.io/badge/Personal_Homepage-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Personal Homepage" height="25"/>
+    <img src="https://img.shields.io/badge/Personal_Homepage-252525?style=for-the-badge&logo=github&logoColor=white" alt="Personal Homepage" height="25"/>
   </a>
 </kbd>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd>
   <a href="https://ieeexplore.ieee.org/author/37089574449">
-    <img src="https://img.shields.io/badge/IEEE-0D1117?style=for-the-badge&logo=ieee&logoColor=00629B" alt="IEEE" height="25"/>
+    <img src="https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE" height="25"/>
   </a>
 </kbd>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 <kbd>
   <a href="https://radar.bit.edu.cn/index.htm">
-    <img src="https://img.shields.io/badge/Team_Website-0D1117?style=for-the-badge&logo=rss&logoColor=10B981" alt="Team Website" height="25"/>
+    <img src="https://img.shields.io/badge/Team_Website-990F4B?style=for-the-badge&logo=rss&logoColor=white" alt="Team Website" height="25"/>
   </a>
 </kbd>
 </div>
@@ -56,33 +58,29 @@ Furthermore, we propose a lightweight deep CNN architecture, **RHFNet**, featuri
   <tr align="center">
     <td width="50%">
       <br>
-      <img src="https://img.shields.io/badge/1.-Text_to_Motion-464EB8?style=flat-square&logo=openai&logoColor=white" alt="Text to Motion">
-      <br><br>
-      A local Large Language Model (LLM) interprets semantic prompts, driving a deep Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced mathematical smoothing filters.
-      <br><br>
+      <h3>🧠 1. Efficient Text-to-Motion</h3>
+      <p>A local Large Language Model (LLM) interprets semantic prompts, driving a deep Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced mathematical smoothing filters.</p>
+      <br>
     </td>
     <td width="50%">
       <br>
-      <img src="https://img.shields.io/badge/2.-Radar_Physics_Engine-10B981?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="Radar Physics">
-      <br><br>
-      Strictly formulates complex electromagnetic wave phenomena including ground multipath reflections, multi-order internal wall reverberations, and target-wall room reverberations.
-      <br><br>
+      <h3>📡 2. Comprehensive Radar Physics</h3>
+      <p>Strictly formulates complex electromagnetic wave phenomena including ground multipath reflections, multi-order internal wall reverberations, and target-wall room reverberations.</p>
+      <br>
     </td>
   </tr>
   <tr align="center">
     <td>
       <br>
-      <img src="https://img.shields.io/badge/3.-Ultra_Fast_Inference-00629B?style=flat-square&logo=lightning&logoColor=white" alt="Fast Inference">
-      <br><br>
-      A lightweight deep CNN architecture (RHFNet) utilizing partial convolution modules. It requires merely <b>2.65M parameters</b> while achieving an incredibly rapid inference time of <b>0.054s</b> per sample.
-      <br><br>
+      <h3>⚡ 3. Ultra-Fast Inference</h3>
+      <p>A lightweight deep CNN architecture (RHFNet) utilizing partial convolution modules. It requires merely <b>2.65M parameters</b> while achieving an incredibly rapid inference time of <b>0.054s</b> per sample.</p>
+      <br>
     </td>
     <td>
       <br>
-      <img src="https://img.shields.io/badge/4.-Highly_Portable-EAB308?style=flat-square&logo=nvidiasteel&logoColor=white" alt="Portable Deployment">
-      <br><br>
-      No dependency on expensive server clusters or cloud APIs. The entire simulation agent can be deployed and run locally on a standard laptop equipped with a single discrete graphics card.
-      <br><br>
+      <h3>💻 4. Highly Portable Deployment</h3>
+      <p>No dependency on expensive server clusters or cloud APIs. The entire simulation agent can be deployed and run locally on a standard laptop equipped with a single discrete graphics card.</p>
+      <br>
     </td>
   </tr>
 </table>
