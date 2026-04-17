@@ -173,6 +173,8 @@ pip install numpy==1.23.5 --upgrade
 python test_emdm_prompt.py
 ```
 
+<img alt="image" src="https://github.com/user-attachments/assets/0a08730c-b138-4c91-97a1-4cbf27bd8cb2" />
+
 ---
 
 ## ⚠️ IV. Important Notes
