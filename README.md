@@ -101,23 +101,9 @@ All source code in the repository is well-structured, extensively commented, and
 
 Strictly follow the installation instructions below step by step, and you can use our agent normally:
 
-### 🔹 Part 1: Generating Simulated Radar Data
-1. **Clone & Setup:** Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
-2. **Environment Configuration:** Ensure your local environment supports the required local LLM (we strictly recommend using `gemma4:26b a4b` for optimal prompt refinement).
-3. **Motion Generation:** Enter the `RadHARAGT_Agent` folder. Run the following scripts strictly in sequence:
-   - `Text_to_Motion_Pipeline.m`
-   - `Kinematic_Smoothing_Truncation.m`
-4. **Physics Simulation:** Once the motion tensor source is generated, execute `Comprehensive_Radar_Physics_Engine.m` to compute the multipath effects and generate finalized RTMs and DTMs.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/your-matlab-workspace-image1" width="75%" alt="MATLAB Workspace Setup">
-  <p><i>Expected MATLAB Workspace after successful execution.</i></p>
-</div>
-
-### 🔹 Part 2: Training and Evaluating RHFNet
-1. **Toolbox Check:** Open `Home` -> `Add-Ons` -> `Explore Add-Ons` to install any required deep learning toolboxes for CNN training.
-2. **Run Inference:** Enter the `RHFNet_Model` folder and run `RHFNet_Training_and_Evaluation.m`. 
-3. **Results:** When all the partial convolution-based models are trained and validated, the learning curves and confusion matrices will be generated automatically.
+### 🔹 Part 1: Prepare the Environments
+1. **Prepare MATLAB Environments:** Install MATLAB R2025a or a later version on your computer, you need to install all the toolboxes. Actually, our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
+2. 
 
 ---
 
