@@ -53,8 +53,8 @@ Table I. Minimum requirements and inference speed on different hardware platform
 
 ### 📚 Paper Information
 * **Paper Title:** RadHARAGT: A Portable Agent for Radar-Based Human Activity Simulation.
-* **Journal References:** Submitted to *IEEE Internet of Things Journal*.
-* **Link:**.
+* **Journal References:** Submitted to IEEE Internet of Things Journal.
+* **Link:**
 
 ---
 
