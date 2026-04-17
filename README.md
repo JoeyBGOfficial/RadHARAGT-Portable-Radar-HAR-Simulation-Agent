@@ -132,6 +132,7 @@ Strictly follow the installation instructions below step by step, and you can us
 2. Open Anaconda Prompt. Enter the folder you have dowanloaded and unzipped the GitHub project.
 
 <img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/3b34b168-e7de-4f5b-a0b8-3a24b42eb7bf" />
+<br><br>
 
 3. Create a new conda environment named "emdm" based on Python 3.10.13. Run the following commands one by one.
 ```bash
