@@ -1,32 +1,34 @@
-<img width="1754" height="1201" alt="RadHARAGT_Splash_Screen" src="https://github.com/user-attachments/assets/226d5e6e-e4aa-4c5b-8d1e-f0255337c8c1" />
 <div align="center">
+  <img width="1754" height="1201" alt="RadHARAGT_Splash_Screen" src="https://github.com/user-attachments/assets/226d5e6e-e4aa-4c5b-8d1e-f0255337c8c1" style="box-shadow: 0 10px 30px rgba(0,0,0,0.3), 0 6px 10px rgba(0,0,0,0.22); border-radius: 12px;" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=500&color=7E7B80&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
-<br>
+  <br><br>
 
-<kbd>
-  <a href="https://www.semanticscholar.org/author/Weicheng-Gao/2051685234">
-    <img src="https://img.shields.io/badge/Semantic_Scholar-005A3C?style=for-the-badge&logo=semanticscholar&logoColor=white" alt="Semantic Scholar" height="25"/>
-  </a>
-</kbd>
-&nbsp;&nbsp;
-<kbd>
-  <a href="https://joeybgofficial.github.io/">
-    <img src="https://img.shields.io/badge/Personal_Homepage-252525?style=for-the-badge&logo=github&logoColor=white" alt="Personal Homepage" height="25"/>
-  </a>
-</kbd>
-&nbsp;&nbsp;
-<kbd>
-  <a href="https://ieeexplore.ieee.org/author/37089574449">
-    <img src="https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE" height="25"/>
-  </a>
-</kbd>
-&nbsp;&nbsp;
-<kbd>
-  <a href="https://radar.bit.edu.cn/index.htm">
-    <img src="https://img.shields.io/badge/Team_Website-990F4B?style=for-the-badge&logo=rss&logoColor=white" alt="Team Website" height="25"/>
-  </a>
-</kbd>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=45&pause=500&color=7E7B80&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
+  
+  <br>
+
+  <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
+    <kbd>
+      <a href="https://www.semanticscholar.org/author/Weicheng-Gao/2051685234">
+        <img src="https://img.shields.io/badge/Semantic_Scholar-005A3C?style=for-the-badge&logo=semanticscholar&logoColor=white" alt="Semantic Scholar" height="25"/>
+      </a>
+    </kbd>
+    <kbd>
+      <a href="https://joeybgofficial.github.io/">
+        <img src="https://img.shields.io/badge/Personal_Homepage-252525?style=for-the-badge&logo=github&logoColor=white" alt="Personal Homepage" height="25"/>
+      </a>
+    </kbd>
+    <kbd>
+      <a href="https://ieeexplore.ieee.org/author/37089574449">
+        <img src="https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE" height="25"/>
+      </a>
+    </kbd>
+    <kbd>
+      <a href="https://radar.bit.edu.cn/index.htm">
+        <img src="https://img.shields.io/badge/Team_Website-990F4B?style=for-the-badge&logo=rss&logoColor=white" alt="Team Website" height="25"/>
+      </a>
+    </kbd>
+  </div>
 </div>
 
 ---
@@ -46,9 +48,13 @@ To address this data scarcity challenge, we propose **RadHARAGT**, a portable ag
 Furthermore, we propose a lightweight deep CNN architecture, **RHFNet**, featuring a partial convolution module for rapid HAR inference. **This work introduces an innovative paradigm for dataset synthesis, and uniquely, the entire agent can be smoothly deployed on a standard laptop with a single discrete graphics card.** We fully trust our peer community and welcome the use of our open-source code for one-click verification.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/your-overview-image-link-here" width="85%" alt="Architecture Overview">
+  <img src="https://github.com/user-attachments/assets/your-overview-image-link-here" width="85%" alt="Architecture Overview" style="border-radius: 8px;">
+  <br>
+  <p><i>Figure 1: High-level system architecture of RadHARAGT, integrating LLM, MDM, and physics engine.</i></p>
   <br><br>
-  <img src="https://github.com/user-attachments/assets/your-visualization-image-link-here" width="85%" alt="Visualizations">
+  <img src="https://github.com/user-attachments/assets/your-visualization-image-link-here" width="85%" alt="Visualizations" style="border-radius: 8px;">
+  <br>
+  <p><i>Figure 2: Sample generated visualizations comparing synthesized and real-world radar maps.</i></p>
 </div>
 
 ---
@@ -106,8 +112,9 @@ All source code in the repository is well-structured, extensively commented, and
 4. **Physics Simulation:** Once the motion tensor source is generated, execute `Comprehensive_Radar_Physics_Engine.m` to compute the multipath effects and generate finalized RTMs and DTMs.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/your-matlab-workspace-image1" width="75%" alt="MATLAB Workspace Setup">
-  <p><i>Expected MATLAB Workspace after successful execution.</i></p>
+  <img src="https://github.com/user-attachments/assets/your-matlab-workspace-image1" width="75%" alt="MATLAB Workspace Setup" style="border-radius: 8px;">
+  <br>
+  <p><i>Figure 3: Expected MATLAB Workspace state after successfully executing the data generation pipeline.</i></p>
 </div>
 
 ### 🔹 Part 2: Training and Evaluating RHFNet
