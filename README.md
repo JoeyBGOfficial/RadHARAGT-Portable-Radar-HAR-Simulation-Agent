@@ -109,7 +109,7 @@ Strictly follow the installation instructions below step by step, and you can us
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
 <br><br>
 
-3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project here and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 730 MB. After all the files are unzipped, the path of your project working folder should look exactly like this.
+3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 728 MB. After all the files are unzipped, the path of your project working folder should look exactly like this.
 
 <img width="534" height="537" alt="image" src="https://github.com/user-attachments/assets/fe1eb541-3586-45de-9e89-e3b010fdf257" />
 
