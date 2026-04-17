@@ -129,11 +129,27 @@ Strictly follow the installation instructions below step by step, and you can us
 1. Download Anaconda here: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/. Select the correct Windows system version. It is recommended to choose "Anaconda3-2025.12-2-Windows-x86_64" or later. Similarly, our code can also run on old versions after "Anaconda3-2023.03-0-Windows-x86_64", but it's not very stable. If you have already installed Anaconda, skip this step.
 2. Open Anaconda Prompt. Enter the folder you have dowanloaded and unzipped the GitHub project.
 
-<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/fc9c0ee9-d830-4a24-b420-2b98a9a0e417" />
+<img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/3b34b168-e7de-4f5b-a0b8-3a24b42eb7bf" />
 
-3. Create a new conda environment named "emdm". Run the following commands one by one.
-> conda create -n emdm python=3.10.13
-> conda activate emdm
+3. Create a new conda environment named "emdm" based on Python 3.10.13. Run the following commands one by one.
+```bash
+conda create -n emdm python=3.10.13 -y
+conda activate emdm
+```
+
+4. Install the version of PyTorch compatible with CUDA 12.1.1. Run the following command.
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+5. Install other dependent Python packages. Run the following command.
+```bash
+pip install "git+https://github.com/openai/CLIP.git"
+pip install scipy einops spacy chumpy wandb smplx pandas scikit-learn chardet
+pip install matplotlib==3.1.3 --upgrade
+pip install numpy==1.23.5 --upgrade
+python -m spacy download en_core_web_sm
+```
 
 ---
 
