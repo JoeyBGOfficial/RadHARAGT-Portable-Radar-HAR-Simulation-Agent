@@ -106,7 +106,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc8f4483-4ecc-466b-818d-7159f5d9029c" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fad014d6-340a-41bf-9355-fe994afda736" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b8e96ab-cbb4-40ce-9dac-82dea1d845fc" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
