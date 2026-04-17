@@ -58,29 +58,25 @@ Table I. Minimum requirements and inference speed on different hardware platform
 <table>
   <tr align="center">
     <td width="50%">
-      <br>
       <h3>🧠 1. Efficient Text-to-Motion</h3>
-      <p>A local Large Language Model (LLM) interprets semantic prompts, driving a deep Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced mathematical smoothing filters.</p>
+      <p>A local LLM interprets semantic prompts (gemma4:26b a4b for suggested VRAM, qwen3-vl:4b for minimum VRAM), driving an efficient Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced smoothing and truncation filters.</p>
       <br>
     </td>
     <td width="50%">
-      <br>
       <h3>📡 2. Comprehensive Radar Physics</h3>
-      <p>Strictly formulates complex electromagnetic wave phenomena including ground multipath reflections, multi-order internal wall reverberations, and target-wall room reverberations.</p>
+      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects. Besies, range-time maps (RTMs) and Doppler-time maps (DTMs) that look exactly like real-world measurements are generated.</p>
       <br>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <br>
       <h3>⚡ 3. Ultra-Fast Inference</h3>
-      <p>A lightweight deep CNN architecture (RHFNet) utilizing partial convolution modules. It requires merely <b>2.65M parameters</b> while achieving an incredibly rapid inference time of <b>0.054s</b> per sample.</p>
+      <p>A lightweight deep network architecture "RHFNet" utilizing partial convolution modules. It requires merely 2.65 M parameters while achieving an incredibly rapid inference time of 0.054 s per sample.</p>
       <br>
     </td>
     <td>
-      <br>
       <h3>💻 4. Highly Portable Deployment</h3>
-      <p>No dependency on expensive server clusters or cloud APIs. The entire simulation agent can be deployed and run locally on a standard laptop equipped with a single discrete graphics card.</p>
+      <p>No dependency on expensive server clusters or cloud APIs. The entire agent can be deployed on a standard laptop or workstation equipped with a single discrete graphics card.</p>
       <br>
     </td>
   </tr>
