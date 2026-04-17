@@ -102,11 +102,11 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 1: Prepare the MATLAB Environments
 1. Install MATLAB R2025a or a later version on your computer, you need to install all the toolboxes. Actually, our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
-2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search "Large Language Models (LLMs) with MATLAB" and install this package.
+2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Cick "Version History". Find version 4.8.0 (12 Mar 2026). Click "Add" → "Add to MATLAB". Wait until the installation is completed.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc8f4483-4ecc-466b-818d-7159f5d9029c" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b8e96ab-cbb4-40ce-9dac-82dea1d845fc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
