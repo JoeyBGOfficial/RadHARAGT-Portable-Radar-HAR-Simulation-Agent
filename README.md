@@ -49,7 +49,7 @@ Furthermore, we propose a lightweight deep network architecture: RHFNet, which u
 Table I. Minimum hardware requirements and inference speed of the proposed RadHARAGT.
 | System | Minimum Required VRAM | Inference Time on NVIDIA RTX 3060 | Inference Time on NVIDIA RTX 4070 Laptop |
 | :--- | :---: | :---: | :---: |
-| **RadHARAGT** | 12 GB | 254 s / sample | 254 s / sample |
+| **RadHARAGT** | 12 GB | 254 s / sample | 208 s / sample |
 
 ---
 
