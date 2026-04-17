@@ -97,7 +97,7 @@ All source code in the repository is well-structured, extensively commented, and
 > (1) MATLAB R2025a or Later.<br>
 > (2) Python 3.10.13.<br>
 > (3) CUDA 12.1.<br>
-> (4) Ollama After Updated in April 2026.
+> (4) Ollama After Updated in April 2026 (Ollama 0.20.6+).
 
 Strictly follow the installation instructions below step by step, and you can use our agent normally:
 
@@ -113,6 +113,8 @@ Strictly follow the installation instructions below step by step, and you can us
 3. After selected your favorite model, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
 
 ### 🔹 Part 3: Prepare the CUDA Environments
+1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version, it is recommended to choose the "exe (local)" package for installation.
+2. 
 
 ---
 
