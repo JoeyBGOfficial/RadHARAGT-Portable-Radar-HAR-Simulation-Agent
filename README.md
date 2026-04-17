@@ -112,7 +112,8 @@ Strictly follow the installation instructions below step by step, and you can us
 
 3. After selected your favorite model, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
 
-### 🔹 Part 2: Prepare the Ollama Environments
+### 🔹 Part 3: Prepare the CUDA Environments
+
 ---
 
 ## ⚠️ IV. Important Notes
