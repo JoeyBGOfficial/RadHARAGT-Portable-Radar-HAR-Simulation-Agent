@@ -7,25 +7,25 @@
 
 <kbd>
   <a href="https://www.semanticscholar.org/author/Weicheng-Gao/2051685234">
-    <img src="https://img.shields.io/badge/Semantic_Scholar-005A3C?style=for-the-badge&logo=semanticscholar&logoColor=white" alt="Semantic Scholar" height="25"/>
+    <img src="https://img.shields.io/badge/Semantic_Scholar-005A3C?&logo=semanticscholar&logoColor=white" alt="Semantic Scholar" height="30"/>
   </a>
 </kbd>
 &nbsp;&nbsp;
 <kbd>
   <a href="https://joeybgofficial.github.io/">
-    <img src="https://img.shields.io/badge/Personal_Homepage-252525?style=for-the-badge&logo=github&logoColor=white" alt="Personal Homepage" height="25"/>
+    <img src="https://img.shields.io/badge/Personal_Homepage-252525?&logo=github&logoColor=white" alt="Personal Homepage" height="30"/>
   </a>
 </kbd>
 &nbsp;&nbsp;
 <kbd>
   <a href="https://ieeexplore.ieee.org/author/37089574449">
-    <img src="https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE" height="25"/>
+    <img src="https://img.shields.io/badge/IEEE-00629B?&logo=ieee&logoColor=white" alt="IEEE" height="30"/>
   </a>
 </kbd>
 &nbsp;&nbsp;
 <kbd>
   <a href="https://radar.bit.edu.cn/index.htm">
-    <img src="https://img.shields.io/badge/Team_Website-990F4B?style=for-the-badge&logo=rss&logoColor=white" alt="Team Website" height="25"/>
+    <img src="https://img.shields.io/badge/Team_Website-990F4B?&logo=rss&logoColor=white" alt="Team Website" height="30"/>
   </a>
 </kbd>
 </div>
