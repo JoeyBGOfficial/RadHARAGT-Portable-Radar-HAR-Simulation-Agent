@@ -101,10 +101,18 @@ All source code in the repository is well-structured, extensively commented, and
 
 Strictly follow the installation instructions below step by step, and you can use our agent normally:
 
-### 🔹 Part 1: Prepare the Environments
-1. **Prepare MATLAB Environments:** Install MATLAB R2025a or a later version on your computer, you need to install all the toolboxes. Actually, our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
-2. 
+### 🔹 Part 1: Prepare the MATLAB Environments
+1. Install MATLAB R2025a or a later version on your computer, you need to install all the toolboxes. Actually, our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
 
+### 🔹 Part 2: Prepare the Ollama Environments
+1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
+2. In the model options bar, select the LLM you want. It is suggested to select qwen3-vl:4b. Of course, you can also choose other models to ensure that your computer resources can run smoothly:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c711ae5-ee38-4704-8eb4-a031aeecd8b1" />
+
+3. After selected your favorite model, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
+
+### 🔹 Part 2: Prepare the Ollama Environments
 ---
 
 ## ⚠️ IV. Important Notes
