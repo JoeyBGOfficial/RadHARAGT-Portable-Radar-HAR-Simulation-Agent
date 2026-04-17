@@ -134,6 +134,8 @@ Strictly follow the installation instructions below step by step, and you can us
 3. Create a new conda environment named "emdm" based on Python 3.10.13. Run the following commands one by one.
 ```bash
 conda create -n emdm python=3.10.13 -y
+```
+```bash
 conda activate emdm
 ```
 
@@ -142,12 +144,20 @@ conda activate emdm
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
-5. Install other dependent Python packages. Run the following command.
+5. Install other dependent Python packages. Run the following command one by one.
 ```bash
 pip install "git+https://github.com/openai/CLIP.git"
+```
+```bash
 pip install scipy==1.15.3 einops==0.8.2 spacy==3.8.13 chumpy==0.70 wandb==0.25.1 smplx==0.1.28 pandas==2.3.3 scikit-learn==1.7.2 chardet==7.4.0.post1
+```
+```bash
 pip install matplotlib==3.1.3 --upgrade
+```
+```bash
 pip install numpy==1.23.5 --upgrade
+```
+```bash
 python -m spacy download en_core_web_sm
 ```
 
