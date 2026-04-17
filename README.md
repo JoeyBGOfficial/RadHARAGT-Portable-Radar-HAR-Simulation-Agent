@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&pause=1000&color=464EB8&center=true&vCenter=true&width=1000&height=100&lines=RadHARAGT;A+Portable+Agent+for+Radar-Based+HAR" alt="Dynamic Title" />
 
-*An innovative paradigm mapping natural language directly into physical radar representations.*
+*A Framework mapping natural language prompts directly into physical radar representations.*
 
 <br>
 
