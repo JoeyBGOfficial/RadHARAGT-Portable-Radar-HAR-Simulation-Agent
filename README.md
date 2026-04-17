@@ -110,11 +110,11 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
-2. In the model options bar, select the LLM you want. It is suggested to select qwen3-vl:4b. Of course, you can also choose other models to ensure that your computer resources can run smoothly:
+2. In the model options bar, select the LLM you want. It is suggested to select qwen3-vl:4b. Of course, you can also choose other models to ensure that your computer resources can run smoothly. Please remember the name of the LLM you have chosen, as you will need to enter it later when using RadHARAGT.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c711ae5-ee38-4704-8eb4-a031aeecd8b1" />
 
-3. After selected your favorite model, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
+3. After selected your favorite LLM, just prompt some content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
 
 ### 🔹 Part 3: Prepare the CUDA Environments
 1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version, it is recommended to choose the "exe (local)" package for installation.
