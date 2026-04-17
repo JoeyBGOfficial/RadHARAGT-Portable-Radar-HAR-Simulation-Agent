@@ -47,9 +47,9 @@ Fig. 1. The overall design idea and architecture of the proposed RadHARAGT.
 Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or work station with a single discrete graphics card**.
 
 Table I. Minimum requirements and inference speed on different hardware platforms of the proposed RadHARAGT.
-| Minimum Required VRAM | NVIDIA RTX 3060 | NVIDIA RTX 4070 Laptop |
-| :---: | :---: | :---: |
-| 12 GB | 254 s / sample | 208 s / sample |
+| Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4070 Laptop |
+| :---: | :---: | :---: | :---: |
+| 8 GB | 12 GB | 254 s / sample | 208 s / sample |
 
 ---
 
