@@ -34,7 +34,7 @@
 ## 📑 Table of Contents
 - [I. Introduction & Overview](#i-introduction--overview)
 - [II. Core Highlights](#ii-core-highlights)
-- [III. How to Reproduce](#iii-how-to-reproduce)
+- [III. How to Install](#iii-how-to-install)
 - [IV. Important Notes](#iv-important-notes)
 ---
 
@@ -94,7 +94,7 @@ Furthermore, we propose a lightweight deep CNN architecture, **RHFNet**, featuri
 
 ---
 
-## 🛠️ III. How to Reproduce
+## 🛠️ III. How to Install
 
 All source code in the repository is well-structured, extensively commented, and thoroughly debugged. With **MATLAB R2025b** or later installed, the scripts are designed to be executed smoothly.
 
