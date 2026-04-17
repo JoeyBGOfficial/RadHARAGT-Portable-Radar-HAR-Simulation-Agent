@@ -92,7 +92,14 @@ Table I. Minimum requirements and inference speed on different hardware platform
 
 ## 🛠️ III. How to Install
 
-All source code in the repository is well-structured, extensively commented, and thoroughly debugged. With **MATLAB R2025b** or later installed, the scripts are designed to be executed smoothly.
+All source code in the repository is well-structured, extensively commented, and thoroughly debugged. Here's the overall list of platforms we need to install and run the proposed RadHARAGT:
+
+> (1) MATLAB R2025a or Later.
+> (2) Python 3.10.13.
+> (3) CUDA 12.1.
+> (4) Ollama After Updated in April 2026.
+
+
 
 ### 🔹 Part 1: Generating Simulated Radar Data
 1. **Clone & Setup:** Download the whole repository and unzip. Add the entire repository to the MATLAB search path.
