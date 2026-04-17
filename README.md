@@ -167,8 +167,10 @@ pip install matplotlib==3.5.2 --upgrade
 ```bash
 pip install numpy==1.23.5 --upgrade
 ```
+
+6. After completing all installation tasks, run the test script "test_emdm_prompt.py" and input a random activity description. The program will automatically download the pre-trained model of CLIP. If the program generates activity visualization animations normally, it proves that the environment configuration is successful.
 ```bash
-python -m spacy download en_core_web_sm
+python test_emdm_prompt.py
 ```
 
 ---
