@@ -92,10 +92,10 @@ Table I. Minimum requirements and inference speed on different hardware platform
 
 All source code in the repository is well-structured, extensively commented, and thoroughly debugged. Here's the overall list of platforms we need to install and run the proposed RadHARAGT:
 
-> (1) MATLAB R2025a or Later.<br>
+> (1) MATLAB R2024a or Later.<br>
 > (2) Python 3.10.13.<br>
-> (3) CUDA 12.1.<br>
-> (4) Ollama After Updated in April 2026 (Ollama 0.20.6+).
+> (3) CUDA 12.1 or Later.<br>
+> (4) Ollama 0.20.6 or Layer (After Updated in April 2026).
 
 Strictly follow the installation instructions below step by step, and you can use our agent normally:
 
