@@ -151,7 +151,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 5. Install other dependent Python packages. Run the following command one by one.
 
 ```bash
-cd CLIP-main
+cd EMDM\CLIP-main
 ```
 
 ```bash
