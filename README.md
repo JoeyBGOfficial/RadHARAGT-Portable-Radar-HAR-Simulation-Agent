@@ -100,7 +100,7 @@ All source code in the repository is well-structured, extensively commented, and
 Strictly follow the installation instructions below step by step, and you can use our agent normally:
 
 ### 🔹 Part 1: Prepare the MATLAB Environments
-1. Install MATLAB R2025a+ with all toolboxes on your computer. Our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
+1. Install MATLAB R2025b+ with all toolboxes on your computer. Our code can also run on versions R2024a~2025a, but it's not very stable. If you have already installed MATLAB, skip this step.
 2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Click "Version History". Find version 4.8.0 (12 Mar 2026). Click "Add" → "Add to MATLAB". Wait a few minutes until the installation is completed.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
@@ -197,7 +197,7 @@ Now get back to the MATLAB. In the unzipped GitHub project directory, run the fo
 ## ⚠️ IV. Important Notes
 
 🖥️ **1. Environment Issues** <br>
-The project primarily consists of MATLAB and Python code executed locally. Suggested MATLAB version: R2025a+, Python version: 3.10.13, and CUDA version: 12.1.1.
+The project primarily consists of MATLAB and Python code executed locally. Suggested MATLAB version: R2024a+, Python version: 3.10.13, and CUDA version: 12.1.1+.
 
 🧬 **2. Algorithm Design Issues** <br>
 By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furniture is supported. We are trying to catch up with these improvements! But we still want to thanks to the remarkable work that inspired us:
