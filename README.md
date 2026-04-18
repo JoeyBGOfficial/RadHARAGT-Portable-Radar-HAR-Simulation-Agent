@@ -34,7 +34,7 @@
 
 ## 💡 I. Introduction & Overview
 
-The implementation of large language models (LLMs) has become extremely popular. As researchers in radar-based human activity recognition (HAR), We are eager to develop an agent that can directly generate radar images through only textual prompts. Although Nano Banana has now developed to the level where it can generate radar range profiles and Doppler profiles, the features on the generated images are completely inconsistent with physical laws.
+The implementation of large language models (LLMs) has become extremely popular. As researchers in radar-based human activity recognition (HAR), we are eager to develop an agent that can directly generate radar images through only textual prompts. Although Nano Banana has now developed to the level where it can generate radar range profiles and Doppler profiles, the features on the generated images are completely inconsistent with physical laws.
 
 As shown in the figure below, a system with only traditional architecture is limited in its intelligence. A system with only AI architecture is limited in its physical interpretability. Therefore, a hybrid architecture design that combines both traditional and AI elements is optimal. RadHARAGT was born in response to this need.
 
@@ -42,7 +42,7 @@ As shown in the figure below, a system with only traditional architecture is lim
 Fig. 1. The overall design idea and architecture of the proposed RadHARAGT.
 <br><br>
 
-Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or work station with a single discrete graphics card**.
+Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or workstation with a single discrete graphics card**.
 
 Table I. Minimum requirements and inference speed on different hardware platforms of the proposed RadHARAGT.
 | Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4070 Laptop |
@@ -68,7 +68,7 @@ Table I. Minimum requirements and inference speed on different hardware platform
     </td>
     <td width="50%">
       <h3>📡 2. Comprehensive Radar Physics</h3>
-      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects. Besies, range-time maps (RTMs) and Doppler-time maps (DTMs) that look exactly like real-world measurements are generated.</p>
+      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects. Besides, range-time maps (RTMs) and Doppler-time maps (DTMs) that look exactly like real-world measurements are generated.</p>
       <br>
     </td>
   </tr>
@@ -101,7 +101,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 1: Prepare the MATLAB Environments
 1. Install MATLAB R2025a+ with all toolboxes on your computer. Our code can also run on versions R2022a~2024b, but it's not very stable. If you have already installed MATLAB, skip this step.
-2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Cick "Version History". Find version 4.8.0 (12 Mar 2026). Click "Add" → "Add to MATLAB". Wait a few minutes until the installation is completed.
+2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Click "Version History". Find version 4.8.0 (12 Mar 2026). Click "Add" → "Add to MATLAB". Wait a few minutes until the installation is completed.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
 <br><br>
@@ -113,13 +113,13 @@ Strictly follow the installation instructions below step by step, and you can us
 </div>
 
 ### 🔹 Part 2: Prepare the Ollama Environments
-1. Download the latest windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
+1. Download the latest Windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
 2. In the model options bar, select the LLM you want. Suggested selection: qwen3-vl:4b. Of course, you can also choose other models that your computer resources can run smoothly. Please remember the name of the LLM you choose, as you will need to enter it later when using RadHARAGT.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c711ae5-ee38-4704-8eb4-a031aeecd8b1" />
 <br><br>
 
-3. After selected your favorite LLM, just prompt any content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
+3. After selecting your favorite LLM, just prompt any content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
 
 ### 🔹 Part 3: Prepare the CUDA Environments
 1. Download the CUDA 12.1 Update 1 version here: https://developer.nvidia.com/cuda-12-1-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local. Select the correct Windows system version. It is recommended to choose the "exe (local)" package for installation. If you have already installed CUDA 12.1+ on your computer, skip Part 3.
@@ -128,7 +128,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 4: Prepare the Python Environments
 1. Download Anaconda here: https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/. Select the correct Windows system version. It is recommended to choose "Anaconda3-2025.12-2-Windows-x86_64" or later. Similarly, our code can also run on old versions after "Anaconda3-2023.03-0-Windows-x86_64", but it's not very stable. If you have already installed Anaconda, skip this step.
-2. Open "Anaconda Prompt". Enter the folder you have dowanloaded and unzipped the GitHub project.
+2. Open "Anaconda Prompt". Enter the folder you have downloaded and unzipped the GitHub project.
 
 <img width="979" height="512" alt="image" src="https://github.com/user-attachments/assets/3b34b168-e7de-4f5b-a0b8-3a24b42eb7bf" />
 <br><br>
@@ -136,40 +136,50 @@ Strictly follow the installation instructions below step by step, and you can us
 3. Create a new conda environment named "emdm" based on Python 3.10.13. Run the following commands one by one.
 ```bash
 conda create -n emdm python=3.10.13 -y
-```
+````
+
 ```bash
 conda activate emdm
 ```
 
 4. Install the version of PyTorch compatible with CUDA 12.1.1. Run the following command. Note: If the CUDA version installed on your computer is not 12.1, please also change the version of PyTorch installed by modifying the last three digits of the command.
+
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
 5. Install other dependent Python packages. Run the following command one by one.
+
 ```bash
 cd CLIP-main
 ```
+
 ```bash
 pip install .
 ```
+
 ```bash
 cd ..
 ```
+
 ```bash
 pip install scipy==1.15.3 einops==0.8.2 spacy==3.8.13 wandb==0.25.1 smplx==0.1.28 pandas==2.3.3 scikit-learn==1.7.2 chardet==7.4.0.post1
 ```
+
 ```bash
 pip install chumpy==0.70 --no-build-isolation
 ```
+
 ```bash
 pip install matplotlib==3.5.2 --upgrade
 ```
+
 ```bash
 pip install numpy==1.23.5 --upgrade
 ```
 
 6. After completing all installation tasks, run the test script "test_emdm_prompt.py" and input a random activity description. The program will automatically download the pre-trained model of CLIP. If the program generates activity visualization animations normally, it proves that the environment configuration is successful.
+
 ```bash
 python test_emdm_prompt.py
 ```
@@ -177,26 +187,26 @@ python test_emdm_prompt.py
 <img alt="image" src="https://github.com/user-attachments/assets/0a08730c-b138-4c91-97a1-4cbf27bd8cb2" />
 
 ### 🔹 Part 5: Run the RadHARAGT
+
 Now get back to the MATLAB. In the unzipped GitHub project directory, run the following command "run("RadHARSimulatorV3.mlapp");". Now feel free to use the app!
 
 <img alt="ScreenShot_2026-04-17_220913_736" src="https://github.com/user-attachments/assets/a29f314f-7672-47e0-80a0-27150a90bce6" />
-
-
 
 ---
 
 ## ⚠️ IV. Important Notes
 
 🖥️ **1. Environment Issues** <br>
-The project primarily consists of MATLAB and python code executed locally. Suggested MATLAB version: R2025a+, Python version: 3.10.13, and CUDA version: 12.1.1.
+The project primarily consists of MATLAB and Python code executed locally. Suggested MATLAB version: R2025a+, Python version: 3.10.13, and CUDA version: 12.1.1.
 
 🧬 **2. Algorithm Design Issues** <br>
-By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furnitures is supported. We are trying to catch up with these improvements! But we still want to thank to the remarkable work that inspired us:
+By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furniture is supported. We are trying to catch up with these improvements! But we still want to thanks to the remarkable work that inspired us:
+
 > Y. Zhou, M. López-Benítez, L. Yu and Y. Yue, "Text2Doppler: Generating Radar Micro–Doppler Signatures for Human Activity Recognition via Textual Descriptions," in IEEE Sensors Letters, vol. 8, no. 10, pp. 1-4, Oct. 2024.
 
 🔒 **3. Copyright & Usage Rights** <br>
 ⭐ Considering intellectual property and the hard work of our team members, this work open-sources the simulation agent code and network model structures for **learning and academic purposes only**. Any direct use for paper submissions, patents, or commercialization must receive our explicit consent! ⭐
 
 <div align="center">
-  <p><i>If you find this repository helpful, please consider citing our paper and giving this repo a </i> "🌟". Really appreciated!</p>
+  <p><i>If you find this repository helpful, please consider citing our paper and giving this repo a "🌟". Really appreciated!</i></p>
 </div>
