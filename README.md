@@ -200,7 +200,7 @@ The project primarily consists of MATLAB and Python code executed locally. Sugge
 | Date | Version Infomation | Details |
 | :---: | :---: | :---: |
 | 2026.3.27 | RadHARSimulator V3.0 (Main_Smulation_Rough.m) | Complete the basic architecture, including input understanding, activity generation, smoothing, truncation, and radar simulation |
-| 2026.4.18 | RadHARSimulator V3.1 (Main_Smulation_Complete.m, RadHARSimulatorV3.mlapp) | Improve the radar simulation physics engine to make it more realistic. Design a simulation agent for the GUI interface. |
+| 2026.4.18 | RadHARSimulator V3.1 (Main_Smulation_Complete.m, RadHARSimulatorV3.mlapp) | Improve the radar simulation physics engine to make it more realistic. Design a simulation agent for the GUI interface |
 
 🧬 **2. Algorithm Design Issues** <br>
 By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furniture is supported. We are trying to catch up with these improvements! But we still want to thanks to the remarkable work that inspired us:
