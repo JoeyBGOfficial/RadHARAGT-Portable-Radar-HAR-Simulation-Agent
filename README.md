@@ -39,12 +39,10 @@ The implementation of large language models (LLMs) has become extremely popular.
 As shown in the figure below, a system with only traditional architecture is limited in its intelligence. A system with only AI architecture is limited in its physical interpretability. Therefore, a hybrid architecture design that combines both traditional and AI elements is optimal. RadHARAGT was born in response to this need.
 
 <img alt="Overall" src="https://github.com/user-attachments/assets/b6bd58fa-5a1d-4c3f-b2c2-4bde5915a38f" />
-Fig. 1. The overall design idea and architecture of the proposed RadHARAGT.
 <br><br>
 
 Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or workstation with a single discrete graphics card**.
 
-Table I. Minimum requirements and inference speed on different hardware platforms of the proposed RadHARAGT.
 | Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4070 Laptop |
 | :---: | :---: | :---: | :---: |
 | 8 GB | 12 GB | 254 s / sample | 208 s / sample |
@@ -196,8 +194,13 @@ Now get back to the MATLAB. In the unzipped GitHub project directory, run the fo
 
 ## ⚠️ IV. Important Notes
 
-🖥️ **1. Environment Issues** <br>
+🖥️ **1. Environment and Version Issues** <br>
 The project primarily consists of MATLAB and Python code executed locally. Suggested MATLAB version: R2024a+, Python version: 3.10.13, and CUDA version: 12.1.1+.
+
+| Date | Version Infomation | Details |
+| :---: | :---: | :---: |
+| 2026.3.27 | RadHARSimulator V3.0 (Main_Smulation_Rough.m) | Complete the basic architecture, including input understanding, activity generation, smoothing, truncation, and radar simulation |
+| 2026.4.18 | RadHARSimulator V3.1 (Main_Smulation_Complete.m, RadHARSimulatorV3.mlapp) | Improve the radar simulation physics engine to make it more realistic. Design a simulation agent for the GUI interface. |
 
 🧬 **2. Algorithm Design Issues** <br>
 By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furniture is supported. We are trying to catch up with these improvements! But we still want to thanks to the remarkable work that inspired us:
