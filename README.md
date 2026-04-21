@@ -61,7 +61,7 @@ Furthermore, we propose a lightweight deep network architecture: RHFNet, which u
   <tr align="center">
     <td width="50%">
       <h3>🧠 1. Efficient Text-to-Motion</h3>
-      <p>A local LLM interprets semantic prompts (gemma4:26b a4b for suggested VRAM, qwen3-vl:4b for minimum VRAM), driving an efficient Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced smoothing and truncation filters.</p>
+      <p>A local LLM interprets semantic prompts (gemma4:26b a4b for suggested VRAM, gemma4:e4b for minimum VRAM), driving an efficient Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced smoothing and truncation filters.</p>
       <br>
     </td>
     <td width="50%">
