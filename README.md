@@ -112,7 +112,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest Windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
-2. In the model options bar, select the LLM you want. Suggested selection: qwen3-vl:4b. Of course, you can also choose other models that your computer resources can run smoothly. Please remember the name of the LLM you choose, as you will need to enter it later when using RadHARAGT.
+2. In the model options bar, select the LLM you want. Suggested selection: gemma4:e4b. Of course, you can also choose other models that your computer resources can run smoothly. Please remember the name of the LLM you choose, as you will need to enter it later when using RadHARAGT.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c711ae5-ee38-4704-8eb4-a031aeecd8b1" />
 <br><br>
