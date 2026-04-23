@@ -203,8 +203,7 @@ The project primarily consists of MATLAB and Python code executed locally. Sugge
 | 2026.4.18 | RadHARSimulator V3.1 (Main_Smulation_Complete.m, RadHARSimulatorV3.mlapp) | Improve the radar simulation physics engine to make it more realistic. Design a simulation agent for the GUI interface. |
 | 2026.4.20 | RadHARSimulator V3.2 (Main_MIMO_Multiperson.m, RadHARAGT.mlapp) | Add MIMO radar system support, multi-person support, and simple indoor scatterer-based object supoort. Design the complete simulation GUI interface for the agent. |
 | 2026.4.30 | RadHARSimulator V3.3 (RadHARAGT_Main_Script.m) | Writing RadHARAGT testing report and fix all the bugs. |
-| 2026.5.5 | RadHARSimulator V3.4 (RadHARAGT_GUI.m) | Add contextual multi-turn dialogue support and design the GUI of the app. |
-| 2026.5.6 | RadHARSimulator V3.4 (RadHARAGT_GUI.m) | Private release. |
+| 2026.5.6 | RadHARSimulator V3.4 (RadHARAGT_GUI.m) | Add contextual multi-turn dialogue support and design the GUI of the app. Private release. |
 
 🧬 **2. Algorithm Design Issues** <br>
 By comprehensively formulating strict physical laws of wall penetration and multipath reverberation, the proposed agent transcends simplified free-space simulators. However, only single-person simulation without any indoor furniture is supported. We are trying to catch up with these improvements! But we still want to thanks to the remarkable work that inspired us:
