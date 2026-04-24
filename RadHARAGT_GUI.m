@@ -152,8 +152,8 @@ function RadHARAGT_GUI()
     main_fig.WindowState = 'maximized';
 
     % Apply the user supplied desktop logo securing unified window branding across local sessions
-    if isfile('RadHARAGT_Logo.png')
-        main_fig.Icon = 'RadHARAGT_Logo.png';
+    if isfile('Icons\RadHARAGT_Logo.png')
+        main_fig.Icon = 'Icons\RadHARAGT_Logo.png';
     end
 
     main_grid = uigridlayout(main_fig, [3, 1], 'RowHeight', {110, '1x', 140}, 'ColumnWidth', {'1x'}, 'BackgroundColor', Color_Background);
@@ -163,8 +163,8 @@ function RadHARAGT_GUI()
     header_grid.Layout.Row = 1; 
     header_grid.Layout.Column = 1;
     
-    if isfile('RadHARAGT_Interface.png')
-        img_title = uiimage(header_grid, 'ImageSource', 'RadHARAGT_Interface.png');
+    if isfile('Icons\RadHARAGT_Interface.png')
+        img_title = uiimage(header_grid, 'ImageSource', 'Icons\RadHARAGT_Interface.png');
         img_title.Layout.Row = 1;
         img_title.Layout.Column = 1;
     end
@@ -195,7 +195,7 @@ function RadHARAGT_GUI()
     ctrl_grid.Layout.Column = 1;
 
     btn_img = uibutton(ctrl_grid, 'push', 'Text', '  Select Image', 'FontName', Font_Name, 'FontSize', 14, 'FontWeight', 'bold', 'FontColor', [0.15 0.15 0.15], 'BackgroundColor', Color_Control_Button, 'ButtonPushedFcn', @cb_select_image);
-    if isfile('Image.png'), btn_img.Icon = 'Image.png'; btn_img.IconAlignment = 'left'; end
+    if isfile('Icons\Image.png'), btn_img.Icon = 'Icons\Image.png'; btn_img.IconAlignment = 'left'; end
     btn_img.Layout.Row = 1; 
     btn_img.Layout.Column = 1;
     btn_img.Tooltip = 'Select a reference image from the current local drive.';
@@ -251,7 +251,7 @@ function RadHARAGT_GUI()
     lbl_temp_max.Layout.Column = 5;
 
     btn_gen = uibutton(ctrl_grid, 'push', 'Text', 'Generate  ', 'FontName', Font_Name, 'FontSize', 14, 'FontWeight', 'bold', 'FontColor', [0.15 0.15 0.15], 'BackgroundColor', Color_Control_Button, 'ButtonPushedFcn', @cb_generate);
-    if isfile('Generate.png'), btn_gen.Icon = 'Generate.png'; btn_gen.IconAlignment = 'right'; end
+    if isfile('Icons\Generate.png'), btn_gen.Icon = 'Icons\Generate.png'; btn_gen.IconAlignment = 'right'; end
     btn_gen.Layout.Row = 1; 
     btn_gen.Layout.Column = 5;
 
@@ -287,7 +287,7 @@ function RadHARAGT_GUI()
             main_fig.Pointer = 'arrow';
             btn_gen.Enable = 'on';
             btn_gen.Text = 'Generate  ';
-            if isfile('Generate.png'), btn_gen.Icon = 'Generate.png'; end
+            if isfile('Icons\Generate.png'), btn_gen.Icon = 'Icons\Generate.png'; end
             btn_gen.BackgroundColor = Color_Control_Button;
             btn_gen.FontColor = [0.15 0.15 0.15];
             
@@ -444,8 +444,8 @@ function RadHARAGT_GUI()
         
         g = uigridlayout(pnl, [2, 2], 'RowHeight', {30, '1x'}, 'ColumnWidth', {35, '1x'}, 'BackgroundColor', Color_Background);
         
-        if isfile('You.png')
-            img_you = uiimage(g, 'ImageSource', 'You.png');
+        if isfile('Icons\You.png')
+            img_you = uiimage(g, 'ImageSource', 'Icons\You.png');
             img_you.Layout.Row = 1;
             img_you.Layout.Column = 1;
         end
@@ -482,8 +482,8 @@ function RadHARAGT_GUI()
         
         g = uigridlayout(pnl, [2, 2], 'RowHeight', {30, '1x'}, 'ColumnWidth', {35, '1x'}, 'BackgroundColor', Color_Panel_Think);
         
-        if isfile('Think.png')
-            img_think = uiimage(g, 'ImageSource', 'Think.png');
+        if isfile('Icons\Think.png')
+            img_think = uiimage(g, 'ImageSource', 'Icons\Think.png');
             img_think.Layout.Row = 1;
             img_think.Layout.Column = 1;
         end
@@ -510,8 +510,8 @@ function RadHARAGT_GUI()
         
         g = uigridlayout(pnl, [3, 3], 'RowHeight', {30, 25, '1x'}, 'ColumnWidth', {35, '1x', 130}, 'BackgroundColor', Color_Panel_Result, 'ColumnSpacing', 8);
         
-        if isfile('Agent.png')
-            img_agent = uiimage(g, 'ImageSource', 'Agent.png');
+        if isfile('Icons\Agent.png')
+            img_agent = uiimage(g, 'ImageSource', 'Icons\Agent.png');
             img_agent.Layout.Row = 1;
             img_agent.Layout.Column = 1;
         end

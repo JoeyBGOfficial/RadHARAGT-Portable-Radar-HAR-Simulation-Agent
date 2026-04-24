@@ -46,7 +46,7 @@ agent_think("Author: JoeyBG. RadHARAGT Multi-Person, Object Boundary & MIMO syst
 Model_Name = "gemma4:e4b";                                                  % Name of the LLM model used for prompt refining and information extracting                                                                         
 Input_Text = "我现在需要仿真两个人的行为。第一个人身高1.83米，体重79公斤，从坐标[-1, 1.5, 0]处起始，朝向60度，无延迟，保持中速走路。第二个人身高1.62米，体重52公斤，从坐标[2, 2.5, 0]处起始，朝向210度，等待1.5秒后开始小跑。场景中在[1.5, 2.2, 0]处放置一张长1.2米、宽0.8米、高0.75米的桌子。采用中心频率2GHz、带宽1GHz的雷达，PRF为200Hz，发射天线位置为[0, 5, 1]，接收天线位置为[0.2, 5, 1]、[0.4, 5, 1]和[0.6, 5, 1]，天线增益15dBi，系统信噪比45dB。启用墙体，墙体位置设置为[0, 4, 1]，墙体宽度8米、高度3米、厚度0.12米，介电常数4.5，损耗角正切0.05。需要考虑多径效应，不使用神经网络进行特征增强。";
 Has_Image = false;                                                          % Define whether the LLM use image for input                                                      
-Image_Path = "Reference.jpg";                                               % Path of the input image                                              
+Image_Path = "Icons\Reference.jpg";                                         % Path of the input image                                              
 
 % Define the parameters for the motion generation execution
 EMDM_Path = "EMDM";                                                         % Path name of the EMDM human motion model generation project                                                  
