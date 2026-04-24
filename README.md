@@ -36,13 +36,13 @@
 
 The implementation of large language models (LLMs) has become extremely popular. As researchers in radar-based human activity recognition (HAR), we are eager to develop an agent that can directly generate radar images through only textual prompts. Although Nano Banana, GPT Imagen have now developed to the level where it can generate radar range profiles and Doppler profiles, the features on the generated images are completely inconsistent with physical laws. RadHARAGT was born in response to this need.
 
-https://github.com/user-attachments/assets/5a5cf386-35e8-4bd8-8ea6-aca3512f51d6
+https://github.com/user-attachments/assets/3df8bb93-4ab2-4a31-b7ee-87ef8fe9cbfd
 
 Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or workstation with a single discrete graphics card**.
 
 | Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4070 Laptop |
 | :---: | :---: | :---: | :---: |
-| 8 GB | 12 GB | 254 s / sample | 208 s / sample |
+| 8 GB | 12 GB | Average 254 s / sample | Average 208 s / sample |
 
 ### 📚 Paper Information
 * **Paper Title:** RadHARAGT: A Portable Agent for Radar-Based Human Activity Simulation.
@@ -57,25 +57,25 @@ Furthermore, we propose a lightweight deep network architecture: RHFNet, which u
 <table>
   <tr align="center">
     <td width="50%">
-      <h3>🧠 1. Efficient Text-to-Motion</h3>
-      <p>A local LLM interprets semantic prompts (gemma4:26b a4b for suggested VRAM, gemma4:e4b for minimum VRAM), driving an efficient Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced smoothing and truncation filters.</p>
+      <h3>🧠 1. Multiple Human Target Support</h3>
+      <p>A local LLM interprets semantic prompts (gemma4:26b a4b for suggested VRAM, gemma4:e4b for minimum VRAM), driving an improved multiple-target efficient Motion Diffusion Model (MDM) to synthesize 3D kinematic trajectories, refined by advanced smoothing and truncation filters.</p>
       <br>
     </td>
     <td width="50%">
-      <h3>📡 2. Comprehensive Radar Physics</h3>
-      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects. Besides, range-time maps (RTMs) and Doppler-time maps (DTMs) that look exactly like real-world measurements are generated.</p>
+      <h3>📡 2. MIMO Radar Support</h3>
+      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects of a MIMO radar system. Besides, range-time maps (RTMs) and Doppler-time maps (DTMs) that look exactly like real-world measurements are generated.</p>
       <br>
     </td>
   </tr>
   <tr align="center">
     <td>
-      <h3>⚡ 3. Ultra-Fast Inference</h3>
-      <p>A lightweight deep network architecture "RHFNet" utilizing partial convolution modules. It requires merely 2.65 M parameters while achieving an incredibly rapid inference time of 0.054 s per sample.</p>
+      <h3>⚡ 3. Highly Portable Deployment</h3>
+      <p>The agent requires only laptop-level hardware. Besides, a lightweight deep network architecture "RHFNet" utilizing partial convolution modules. It requires merely 2.65 M parameters while achieving an incredibly rapid inference time of 0.054 s per sample.</p>
       <br>
     </td>
     <td>
-      <h3>💻 4. Highly Portable Deployment</h3>
-      <p>No dependency on expensive server clusters or cloud APIs. The entire agent can be deployed on a standard laptop or workstation equipped with a single discrete graphics card.</p>
+      <h3>💻 4. Indoor Layout Support</h3>
+      <p>Common indoor static objects are supported. In addition, the proposed agent has established a strict adaptive obstacle avoidance system. There will be no overlap between human targets, human targets and static objects, or human targets and walls.</p>
       <br>
     </td>
   </tr>
