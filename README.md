@@ -36,9 +36,11 @@
 
 The implementation of large language models (LLMs) has become extremely popular. As researchers in radar-based human activity recognition (HAR), we are eager to develop an agent that can directly generate radar images through only textual prompts. Although Nano Banana has now developed to the level where it can generate radar range profiles and Doppler profiles, the features on the generated images are completely inconsistent with physical laws.
 
+https://github.com/user-attachments/assets/5a5cf386-35e8-4bd8-8ea6-aca3512f51d6
+
 As shown in the figure below, a system with only traditional architecture is limited in its intelligence. A system with only AI architecture is limited in its physical interpretability. Therefore, a hybrid architecture design that combines both traditional and AI elements is optimal. RadHARAGT was born in response to this need.
 
-<img alt="Overall" src="https://github.com/user-attachments/assets/b6bd58fa-5a1d-4c3f-b2c2-4bde5915a38f" />
+<img width="5641" height="5428" alt="Overall_Paper" src="https://github.com/user-attachments/assets/0dca7b15-94a4-4269-abe7-29dbbf17a44c" />
 <br><br>
 
 Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or workstation with a single discrete graphics card**.
