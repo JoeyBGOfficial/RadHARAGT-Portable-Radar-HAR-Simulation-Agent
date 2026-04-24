@@ -38,7 +38,7 @@
 
 The implementation of large language models (LLMs) has become extremely popular. As researchers in radar-based human activity recognition (HAR), we are eager to develop an agent that can directly generate radar images through only textual prompts. Although Nano Banana and GPT Imagen have now developed to the level where it can generate radar range maps and Doppler maps, the features on the generated images are completely inconsistent with physical laws. RadHARAGT was born in response to this need.
 
-https://github.com/user-attachments/assets/c91594cb-c81d-4353-a33a-361769a70110
+https://github.com/user-attachments/assets/8fad0394-7f52-49e4-9251-6235702493c1
 
 Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference.
 
