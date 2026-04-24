@@ -118,7 +118,7 @@ Strictly follow the installation instructions below step by step, and you can us
 
 3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 728 MB. After all the files are unzipped, the path of your project working folder should look exactly like this:
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5f005e5-52e3-4d09-815c-be6e5e7186fb" />
+<img width="3200" height="2000" alt="9" src="https://github.com/user-attachments/assets/46d49c6d-4e05-49d1-a2fd-4be590723e4b" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest Windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
@@ -201,7 +201,7 @@ Now get back to the MATLAB. In the unzipped GitHub project directory, run the fo
 run("RadHARAGT_GUI.m");
 ```
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7534d6da-325e-4622-beab-70b106a65522" />
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/0ece1e68-9dc1-4d66-82ee-4143ddea3680" />
 
 ---
 
