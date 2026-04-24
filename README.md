@@ -50,9 +50,9 @@ Furthermore, we propose a lightweight deep network architecture: RHFNet, which u
 
 You can also pay attention to our first-generation and second-generation simulation software if interested:
 
-| RadHARSimulator V1: Model-Based Radar HAR Simulator | RadHARSimulator V2: Video to Doppler Generator |
+| RadHARSimulator V1: Model-Based Simulator | RadHARSimulator V2: Video to Doppler Generator |
 | :---: | :---: |
-| <img width="500" height="500" alt="RadHARSimulator_Logo" src="https://github.com/user-attachments/assets/e46c4644-eebc-492d-a9c3-63ea1d72f5f9" /> | <img width="1024" height="1024" alt="logo" src="https://github.com/user-attachments/assets/77dd242f-68ee-4b21-bbea-72dea87bb4b6" /> | 
+| <img width="3200" height="1760" alt="486687209-15860457-59a0-4e1a-9331-789ce891b373" src="https://github.com/user-attachments/assets/8b2d0faa-fd27-4d51-91ac-71cb3ff050d7" /> | <img width="1651" height="847" alt="507388290-6358d013-4a40-4e42-b2b7-df0b880295aa" src="https://github.com/user-attachments/assets/c1440f9f-d13d-4c94-a03e-16d472c64f6b" /> | 
 | https://github.com/JoeyBGOfficial/RadHARSimulatorV1-Model-Based-FMCW-Radar-Human-Activity-Recognition-Simulator | https://github.com/JoeyBGOfficial/RadHARSimulatorV2-Video-to-Doppler-Generator |
 
 ### 📚 Paper Information
