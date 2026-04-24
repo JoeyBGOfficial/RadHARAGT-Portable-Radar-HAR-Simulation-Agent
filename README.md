@@ -78,7 +78,7 @@ You can also pay attention to our 1st-generation and 2nd-generation simulator if
     </td>
     <td width="50%">
       <h3>📡 2. MIMO Radar Support</h3>
-      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects of a MIMO radar system. Besides, range-time maps (RTMs) and Doppler-time maps (DTMs) that look very like real-world measurements are generated. In addition, RadHARAGT supports the Basic Linear Algebra Subprograms (BLAS) matrix-based echo synthesis acceleration.</p>
+      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects of a MIMO radar system. Range-time maps (RTMs) and Doppler-time maps (DTMs) that look very like real-world measurements are generated. In addition, RadHARAGT supports the Basic Linear Algebra Subprograms (BLAS) matrix-based echo synthesis acceleration algorithm.</p>
       <br>
     </td>
   </tr>
