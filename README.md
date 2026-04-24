@@ -48,7 +48,7 @@ Furthermore, we propose a lightweight deep network architecture: RHFNet, which u
 
 </div>
 
-You can also pay attention to our first-generation and second-generation simulation software if interested:
+You can also pay attention to our 1st-generation and 2nd-generation simulator if interested:
 
 | RadHARSimulator V1: Model-Based Simulator | RadHARSimulator V2: Video to Doppler Generator |
 | :---: | :---: |
