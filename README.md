@@ -40,9 +40,20 @@ https://github.com/user-attachments/assets/3df8bb93-4ab2-4a31-b7ee-87ef8fe9cbfd
 
 Furthermore, we propose a lightweight deep network architecture: RHFNet, which uses a partial convolution module for rapid HAR inference. This work introduces an innovative framework for data synthesis, and uniquely, **the entire agent and the recognition network model can be smoothly deployed on a standard laptop or workstation with a single discrete graphics card**.
 
+<div align="center">
+  
 | Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4070 Laptop |
 | :---: | :---: | :---: | :---: |
 | 8 GB | 12 GB | Average 254 s / sample | Average 208 s / sample |
+
+</div>
+
+You can also pay attention to our first-generation and second-generation simulation software if interested:
+
+| RadHARSimulator V1: Model-Based FMCW Radar HAR Simulator | RadHARSimulator V2: Video to Doppler Generator |
+| :---: | :---: |
+| <img width="500" height="500" alt="RadHARSimulator_Logo" src="https://github.com/user-attachments/assets/516bde76-c8ab-4866-877a-9a326b198980" /> | <img width="1024" height="1024" alt="logo" src="https://github.com/user-attachments/assets/77dd242f-68ee-4b21-bbea-72dea87bb4b6" /> | 
+| https://github.com/JoeyBGOfficial/RadHARSimulatorV1-Model-Based-FMCW-Radar-Human-Activity-Recognition-Simulator | https://github.com/JoeyBGOfficial/RadHARSimulatorV2-Video-to-Doppler-Generator |
 
 ### 📚 Paper Information
 * **Paper Title:** RadHARAGT: A Portable Agent for Radar-Based Human Activity Simulation.
