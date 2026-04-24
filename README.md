@@ -46,7 +46,7 @@ The hardware requirements of RadHARAGT:
 
 <div align="center">
   
-| Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4070 Laptop |
+| Minimum VRAM | Suggested VRAM | Run on NVIDIA RTX 3060 | Run on NVIDIA RTX 4060 Laptop |
 | :---: | :---: | :---: | :---: |
 | 8 GB | 12 GB | Average 254 s / sample | Average 208 s / sample |
 
