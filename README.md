@@ -78,14 +78,14 @@ You can also pay attention to our 1st-generation and 2nd-generation simulator if
     </td>
     <td width="50%">
       <h3>📡 2. MIMO Radar Support</h3>
-      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects of a MIMO radar system. Besides, range-time maps (RTMs) and Doppler-time maps (DTMs) that look exactly like real-world measurements are generated.</p>
+      <p>Strictly formulates complex electromagnetic wave phenomena including wall attenuation and multipath effects of a MIMO radar system. Besides, range-time maps (RTMs) and Doppler-time maps (DTMs) that look very like real-world measurements are generated. In addition, RadHARAGT supports the Basic Linear Algebra Subprograms (BLAS) matrix-based echo synthesis acceleration.</p>
       <br>
     </td>
   </tr>
   <tr align="center">
     <td>
       <h3>⚡ 3. Highly Portable Deployment</h3>
-      <p>The agent requires only laptop-level hardware. Besides, a lightweight deep network architecture "RHFNet" utilizing partial convolution modules. It requires merely 2.65 M parameters while achieving an incredibly rapid inference time of 0.054 s per sample.</p>
+      <p>The agent requires only laptop-level hardware. Besides, a lightweight deep network architecture "RHFNet" utilizing partial convolution modules. The minimum VRAM requirement for the entire system can reach 8 GB.</p>
       <br>
     </td>
     <td>
