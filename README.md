@@ -96,22 +96,20 @@ Strictly follow the installation instructions below step by step, and you can us
 
 ### 🔹 Part 1: Prepare the MATLAB Environments
 1. Install MATLAB R2025b+ with all toolboxes on your computer. Our code can also run on versions R2024a~2025a, but it's not very stable. If you have already installed MATLAB, skip this step.
-2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Click "Version History". Find version 4.8.0 (12 Mar 2026). Click "Add" → "Add to MATLAB". Wait a few minutes until the installation is completed.
+2. Open MATLAB, click "Home" → "Add-Ons" → "Explore Add-Ons". After the Add-on Explorer is running, search and enter the page of "Large Language Models (LLMs) with MATLAB". Click "Version History". Find version 4.8.0+ (Released after 12 Mar 2026). Click "Add" → "Add to MATLAB". Wait a few minutes until the installation is completed.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d61f6858-eeb8-4c6f-89e8-607ab175b661" />
 <br><br>
 
 3. Download the whole GitHub project and unzip to your computer. Then, download the files in "EMDM\" folder of the project and unzip: https://drive.google.com/file/d/1kiz1ZZ60IQRm4IQ9VEb471k5oJsmQEQd/view?usp=sharing. The whole "EMDM\" folder is about 728 MB. After all the files are unzipped, the path of your project working folder should look exactly like this:
 
-<div align="center">
-<img width="50%" alt="File" src="https://github.com/user-attachments/assets/70207ab7-9469-4ae1-8dde-b53eae756780" />
-</div>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5f005e5-52e3-4d09-815c-be6e5e7186fb" />
 
 ### 🔹 Part 2: Prepare the Ollama Environments
 1. Download the latest Windows version of Ollama here: https://ollama.com/download. Install Ollama in your computer. After the installation, open Ollama, and sign in.
 2. In the model options bar, select the LLM you want. Suggested selection: gemma4:e4b. Of course, you can also choose other models that your computer resources can run smoothly. Please remember the name of the LLM you choose, as you will need to enter it later when using RadHARAGT.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c711ae5-ee38-4704-8eb4-a031aeecd8b1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f809c583-efa2-4dd7-ad37-0a61be313a5c" />
 <br><br>
 
 3. After selecting your favorite LLM, just prompt any content, and Ollama will automatically download the model. After the model download is complete, **do not exit Ollama and keep it running in the background**.
@@ -183,9 +181,13 @@ python test_emdm_prompt.py
 
 ### 🔹 Part 5: Run the RadHARAGT
 
-Now get back to the MATLAB. In the unzipped GitHub project directory, run the following command "run("RadHARSimulatorV3.mlapp");". Now feel free to use the app!
+Now get back to the MATLAB. In the unzipped GitHub project directory, run the following command. Now feel free to use the app!
 
-<img alt="ScreenShot_2026-04-17_220913_736" src="https://github.com/user-attachments/assets/a29f314f-7672-47e0-80a0-27150a90bce6" />
+```matlab
+run("RadHARAGT_GUI.m");
+```
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7534d6da-325e-4622-beab-70b106a65522" />
 
 ---
 
