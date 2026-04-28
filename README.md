@@ -62,7 +62,7 @@ You can also pay attention to our 1st-generation and 2nd-generation simulator if
 ### 📚 Paper Information
 * **Paper Title:** RadHARAGT: A Portable Agent for Radar-Based Human Activity Simulation.
 * **Journal References:**
-> Submitted to IEEE Internet of Things Journal.
+> Submitted to IEEE Transactions on Knowledge and Data Engineering.
 * **Link:**
 
 ---
