@@ -214,7 +214,7 @@ The project primarily consists of MATLAB and Python code executed locally. Sugge
 | :---: | :---: | :---: |
 | 2026.2.27 | RadHARSimulator V3.0 (Main_Smulation_Rough.m) | Complete the basic architecture, including input understanding, activity generation, smoothing, truncation, and radar simulation. |
 | 2026.3.18 | RadHARSimulator V3.1 (Main_Smulation_Complete.m, RadHARSimulatorV3.mlapp) | Improve the radar simulation physics engine to make it more realistic. Design a rough GUI interface. |
-| 2026.3.20 | RadHARSimulator V3.2 (Main_MIMO_Multiperson.m, RadHARAGT.mlapp) | Add MIMO radar system support, multi-person support, and simple indoor scatterer-based object supoort. Design the complete simulation GUI interface for the agent. |
+| 2026.3.20 | RadHARSimulator V3.2 (Main_MIMO_Multiperson.m, RadHARAGT.mlapp) | Add MIMO radar system support, multi-person support, and simple indoor scatterer-based object supoort. Design the improved simulation GUI interface for the agent. |
 | 2026.4.20 | RadHARSimulator V3.3 (RadHARAGT_Main_Script.m) | Writing RadHARAGT testing report and fix all the bugs. |
 | 2026.4.30 | RadHARSimulator V3.4 (RadHARAGT_GUI.m) | Add contextual multi-turn dialogue support and design the GUI of the app. Private release. |
 
