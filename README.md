@@ -60,7 +60,7 @@ You can also pay attention to our 1st-generation and 2nd-generation simulator if
 | https://github.com/JoeyBGOfficial/RadHARSimulatorV1-Model-Based-FMCW-Radar-Human-Activity-Recognition-Simulator | https://github.com/JoeyBGOfficial/RadHARSimulatorV2-Video-to-Doppler-Generator |
 
 ### 📚 Paper Information
-* **Paper Title:** Portable Radar HAR Simulation Agent.
+* **Paper Title:** Radar HAR Simulation Agent.
 * **Journal References:**
 > Submitted to IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), under reviewing.
 * **Link:**
