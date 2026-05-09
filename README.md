@@ -62,7 +62,7 @@ You can also pay attention to our 1st-generation and 2nd-generation simulator if
 ### 📚 Paper Information
 * **Paper Title:** Portable Radar HAR Simulation Agent.
 * **Journal References:**
-> Submitted to IEEE Transactions on Knowledge and Data Engineering.
+> Submitted to IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), under reviewing.
 * **Link:**
 
 ---
