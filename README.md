@@ -62,7 +62,7 @@ You can also pay attention to our 1st-generation and 2nd-generation simulator if
 ### 📚 Paper Information
 * **Paper Title:** Radar HAR Simulation Agent.
 * **Journal References:**
-> Submitted to IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), under reviewing.
+> Submitted to IEEE Transactions on Automation Science and Engineering (IEEE TASE), under reviewing.
 * **Link:**
 
 ---
